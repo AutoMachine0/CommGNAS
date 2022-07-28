@@ -51,12 +51,12 @@ pip install ray==1.7.0
 
 
 ## Running the Experiment
-**1.Searching the GNN Architecture**
+**1.Searching the GNN Architecture for Community Detection**
 ```python
 python search_main.py
 ```
 
-**2.Testing the Optimal GNN Architecture**
+**2.Testing the Optimal Model Designed by CommGNAS for Community Detection**
 ```python
 python test_main.py
 ```
