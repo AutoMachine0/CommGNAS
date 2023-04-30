@@ -7,6 +7,10 @@
 <br>
 <div align=left> <img src="pic/CommGNAS.svg" height="100%" width="100%"/> </div>
 
+## News
+
+- 2023.04.28 Our work [*CommGNAS: Unsupervised Graph Neural Architecture Search for Community Detection.*](https://ieeexplore.ieee.org/document/10112632) is accepted by **TETC 2023**.
+
 
   
 ## Installing For Ubuntu 16.04
@@ -59,4 +63,19 @@ python search_main.py
 **2.Testing the Optimal Model Designed by CommGNAS for Community Detection**
 ```python
 python test_main.py
+```
+
+## Citing
+
+If you think AutoMSR is useful tool for you, please cite our paper, thank you for your support:
+```python
+@ARTICLE{10112632,
+  author={Gao, Jianliang and Chen, Jiamin and Oloulade, Babatounde Moctard and Al-Sabri, Raeed and Lyu, Tengfei and Zhang, Ji and Li, Zhao},
+  journal={IEEE Transactions on Emerging Topics in Computing}, 
+  title={CommGNAS: Unsupervised Graph Neural Architecture Search for Community Detection}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TETC.2023.3270181}}
 ```
